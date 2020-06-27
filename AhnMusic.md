@@ -1,6 +1,10 @@
 AhnMusic
 --------
 
+*NOTE* I have since realised that this is largely already handled in that .ogg files
+are automatically looped, and can be stopped by calling `$gtk.stop_music` at any time.
+So, this is somewhat reinventing the wheel but still a fun way to do music.
+
 This class provides a (relatively) painless way to drop music into your DragonRuby
 game, *but* it does require you to know your music! The notes are individually
 programmed, so it's not just a case of dropping your favourite `mp3` file into your
